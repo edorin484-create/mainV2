@@ -1,0 +1,64 @@
+name: planning_ccas_ai
+description: Planning CCAS AI - Lecture intelligente de planning papier
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera & Image
+  camera: ^0.10.5+9
+  image_picker: ^1.1.2
+  image: ^4.1.7
+  flutter_image_compress: ^2.2.0
+
+  # ML Kit OCR
+  google_mlkit_text_recognition: ^0.13.1
+  google_mlkit_document_scanner: ^0.1.0
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.2
+  table_calendar: ^3.1.2
+  fl_chart: ^0.68.0
+
+  # Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  shared_preferences: ^2.3.2
+
+  # Notifications
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  permission_handler: ^11.3.1
+
+  # Utils
+  intl: ^0.19.0
+  provider: ^6.1.2
+  uuid: ^4.4.2
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
